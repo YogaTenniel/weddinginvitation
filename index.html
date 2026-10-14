@@ -1,0 +1,13 @@
+# 1. 建立 README 檔案並初始化 Git 儲存庫
+echo "# wedding" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/YogaTenniel/wedding.git
+git push -u origin main
+
+# 2. 將我們的婚禮網頁 index.html 加入並推送到 GitHub
+git add index.html
+git commit -m "Add wedding invitation web page"
+git push
